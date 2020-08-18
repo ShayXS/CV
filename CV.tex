@@ -1,0 +1,94 @@
+\documentclass{article}
+
+\usepackage{titlesec}
+\usepackage{titling}
+\usepackage[margin = 1.25in]{geometry}
+
+\titleformat{\section}
+{\large}
+{}
+{0em}
+{\bfseries}[\titlerule]
+
+\titleformat{\subsection}
+{\bfseries}
+{$\bullet$}
+{1em}
+{}
+
+\titleformat{\subsubsection} [runin]
+{\bfseries}
+{}
+{0em}
+{}
+
+\titlespacing{\subsubsection}
+{0em}{0.5em}{0.5em}
+
+\renewcommand{\maketitle}{
+\begin{center}
+{\huge\bfseries
+\theauthor}
+
+\vspace{.25em}
+
+Email: xiaoyu.sun@rutgers.edu\\
+Website: shayxs.github.io
+\end{center}
+}
+
+% --------------------------------------------------------
+\begin{document}
+\title{CV}
+\author{Xiaoyu Sun}
+\maketitle
+
+\section{Education}
+\textbf{B.S in Computer Science} \space \textbf{GPA: 3.82/4.00}
+\hfill{September 2018 - Present}\\
+Rutgers, The State University of New Jersey – New Brunswick, New jersey\\
+Relevant courses:
+\begin{itemize}
+  \itemsep0em
+  \item Data Structure
+  \item Discrete Structures I/II
+  \item Principles of Information and Data Management
+  \item Introduction to Data Science
+  \item Introduction to Artificial Intelligence
+\end{itemize}
+
+
+\section{Relevant Projects}
+\textbf{Fast Trajectory Replanning}
+\hfill{July 2020}\\
+Code and Description is on my website: shayxs.github.io\\
+
+\noindent \textbf{Face and Digit Classification}
+\hfill{Augut 2020}\\
+Code and Description is on my website: shayxs.github.io\\
+\section{Technical Skills}
+
+\subsubsection{Programming:}
+
+Python, Java, C, SQL
+
+\subsubsection{Markup:}
+
+LaTex, Markdown
+
+\section{Research Experience}
+\textbf{Rutgers Undergraduate Research Journal}
+\hfill{September 2019 - Present}\\
+\textbf{\textit{Junior Founder}}
+\begin{itemize}
+  \itemsep0em
+  \item Found the university-wide undergraduate research journal
+  \item Designed a course of peer review in research for new members to familiar with the
+review process
+  \item  Worked with a team of 13 fellow junior founders to form the syllabus for the course we
+provided
+  \item Reviewed papers in different fields as a reviewer
+  \item Given review reports to authors with suggestions
+\end{itemize}
+
+\end{document}
